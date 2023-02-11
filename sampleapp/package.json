@@ -1,0 +1,13 @@
+{
+    "name": "packer_with_docker_node_js",
+    "version": "1.0.0",
+    "description": "Packer Example with local docker based image.",
+    "author": "Jennie Developers <dextrop@ask-jennie.com>",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+}

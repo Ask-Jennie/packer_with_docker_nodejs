@@ -1,0 +1,44 @@
+{
+    "_id": 257,
+    "created_by": {
+        "_id": 1,
+        "email": "saurabh@ask-jennie.com",
+        "fullname": "Saurabh Pandey",
+        "bio": "Full Stack Developer",
+        "city": "Gurgaon",
+        "social_login_id": "",
+        "login_via": "google",
+        "picture": "",
+        "key": "ccc0f68c-bab809be-2ec06f5b-2edf8583",
+        "admin": 1,
+        "_created": "2022-04-30T19:03:17.168550Z",
+        "_updated": "2022-11-20T09:45:20.222094Z"
+    },
+    "app_image": "",
+    "app_name": "packer_with_docker_nodejs",
+    "app_title": "Packer Example with local docker based image",
+    "app_description": "Packing your Node.js application into a single executable.",
+    "tag": "nodejs,packer,docker",
+    "stack": "packer",
+    "type": "packer-automations",
+    "automation_conf": [
+        {
+            "event_type": "download-files",
+            "files": [
+                {
+                    "out_path": "./docker.pkr.hcl",
+                    "file_link": "https://s3.amazonaws.com/jennie.cdn/docker/packer_with_docker_nodejs/docker.pkr.hcl"
+                },
+                {
+                    "out_path": "./Dockerfile",
+                    "file_link": "https://s3.amazonaws.com/jennie.cdn/docker/packer_with_docker_nodejs/Dockerfile"
+                }
+            ]
+        }
+    ],
+    "dependencies": "",
+    "readme": "",
+    "is_active": false,
+    "created_on": "2023-02-11T12:13:14.183226Z",
+    "updated_on": "2023-02-11T12:20:17.338788Z"
+}
